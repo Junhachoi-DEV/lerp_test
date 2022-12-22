@@ -30,6 +30,12 @@ public class move : MonoBehaviour
 
         float t = cur_time / lerp_time;
         t = Mathf.Sin(t * Mathf.PI * 0.5f);
+        
         this.transform.position = Vector3.Lerp(start_pos.position, end_pos.position, t);
+    }
+
+    IEnumerator lerp_co_routine()
+    {
+        yield return null;
     }
 }
