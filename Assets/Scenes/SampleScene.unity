@@ -931,3 +931,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   start_pos: {fileID: 775930004}
   end_pos: {fileID: 1251139228}
+  lerp_time: 1
